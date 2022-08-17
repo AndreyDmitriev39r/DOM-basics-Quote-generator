@@ -37,3 +37,12 @@ const quotesLookUp = [
   }
 ];
 
+// logic
+
+const getRandomQuote = () => {
+  const random = Math.floor(Math.random() * quotesLookUp.length);
+  quote.innerText = quotesLookUp[random].quote;
+  author.innerText = quotesLookUp[random].author;
+}
+
+btnNewQuote.addEventListener('click', getRandomQuote);
