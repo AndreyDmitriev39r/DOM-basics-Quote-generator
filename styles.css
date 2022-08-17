@@ -1,4 +1,5 @@
 /* General */
+/* TODO: color variables */
 
 *,
 *::before,
@@ -22,3 +23,21 @@ body {
   /* background: url() no-repeat center center/ cover ; */
   background-color: bisque;
 }
+
+/* maybe adjust height also */
+.container {
+  width: 80%;
+}
+
+.header {
+  font-size: 1.22rem;
+  width: 75%;
+  max-width: 350px;
+  margin: 2% auto;
+  padding: 2.5px;
+  color: whitesmoke;
+  background-color: #2f1f1f;
+  border: 3px solid whitesmoke;  
+  border-radius: 7px;
+}
+
