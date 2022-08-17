@@ -21,7 +21,7 @@ body {
   /* choose img and place it in background prop 
   MDN research to refresh background prop*/
   /* background: url() no-repeat center center/ cover ; */
-  background-color: bisque;
+  background-color: violet;
 }
 
 /* maybe adjust height also */
@@ -38,6 +38,18 @@ body {
   color: whitesmoke;
   background-color: #2f1f1f;
   border: 3px solid whitesmoke;  
-  border-radius: 7px;
+  border-radius: 4%;
 }
 
+.main-content {  
+  width: 100%;
+  max-width: 467px;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: whitesmoke;
+  border-radius: 2%;
+}
+
+.quote-text {
+  
+}
