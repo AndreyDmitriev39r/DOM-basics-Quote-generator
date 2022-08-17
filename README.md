@@ -4,6 +4,16 @@
 
 Build a simple qoute generator to get basic DOM skills.
 
+### Key concepts
+
+- querySelector()
+
+- addEventListener()
+
+- Math object
+
+- innerText
+
 ## Links
 
 Course about DOM on freeCodeCamp YouTube channel:
