@@ -1,0 +1,24 @@
+/* General */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  /* using flex to place all stuff at the center */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  /* choose img and place it in background prop 
+  MDN research to refresh background prop*/
+  /* background: url() no-repeat center center/ cover ; */
+  background-color: bisque;
+}
