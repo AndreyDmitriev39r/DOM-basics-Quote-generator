@@ -1,9 +1,10 @@
 /* General */
-/* TODO: color variables */
+/* TODO: some selectors could be optimized */
 
 :root {
   --light-color: whitesmoke;
   --dark-color: #2f1f1f;
+  --ternary-color: #777777;
 }
 
 *,
@@ -38,8 +39,8 @@ body {
   font-size: 1.22rem;
   width: 75%;
   max-width: 350px;
-  margin: 2% auto;
-  padding: 2.5px;
+  margin: 0.9rem auto;
+  padding: 0.6rem;
   color: var(--light-color);
   background-color: var(--dark-color);
   border: 3px solid var(--light-color);  
@@ -50,11 +51,31 @@ body {
   width: 100%;
   max-width: 467px;
   margin: 0 auto;
-  padding: 3%;
+  padding: 1.75rem;
   background-color: var(--light-color);
   border-radius: 2%;
 }
 
 .quote-text {
+  font-size: 1.16rem;
+  line-height: 1.65rem
+}
 
+.author {
+  font-size: 1.75rem;
+  margin: 1.45rem auto;
+  text-shadow: 2px 2px var(--ternary-color);
+}
+
+#get-new-quote {
+  font-size: 1.5rem;
+  padding: 0.35rem;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  border-radius: 3%;
+  box-shadow: 2px 2px var(--ternary-color);
+}
+
+#get-new-quote:active {
+  background-color: var(--ternary-color);
 }
